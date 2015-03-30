@@ -76,12 +76,11 @@ function return_key() {
     <p>
         <center>
             <a class="btn btn-lg btn-success" href="javascript:history.go(0)">Give me another!</a>
-        <!-- <form><input tupe="button" onClick="history.go(0)" value="Give me another!"></form> -->
         </center>
     </p>
 </div>
 <div class="footer">
-    <center><p>&copy; Response Code Drinking Game <?php echo date("Y"); ?></p></center>
+    <center><p>&copy; Status Code Drinking Game <?php echo date("Y"); ?></p></center>
 </div>
 </body>
 </html>
