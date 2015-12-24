@@ -76,7 +76,7 @@ function return_key() {
     </div>
     <p>
         <center>
-            <a class="btn btn-lg btn-success" href="javascript:history.go(0)">Give me another!</a>
+            <a class="btn btn-block btn-success" href="javascript:history.go(0)">Give me another!</a>
         </center>
     </p>
 </div>
