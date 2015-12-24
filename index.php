@@ -21,7 +21,8 @@ $codes_and_values = array(
     '416' => 'Thats what she said! Everyone drinks',
     '417' => 'Drink before your turn? if not, drink and go again',
     '418' => 'Sing "I\'m a little teapot". Then drink',
-    '500' => 'Oh fuck, Everone drinks'
+    '500' => 'Oh fuck, Everone drinks',
+    '451' => 'Put your drink away for legal reasons'
 );
 
 function get_random_key() {
