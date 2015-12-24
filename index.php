@@ -52,6 +52,7 @@ function return_key() {
 </head>
 
 <body>
+
 <div class="container">
     <div class="header">
         <center><h3 class="text-muted">Response Code Drinking Game</h3></center>
@@ -81,7 +82,7 @@ function return_key() {
     </p>
 </div>
 <div class="footer">
-    <center><p>&copy; Status Code Drinking Game <?php echo date("Y"); ?></p></center>
+    <center><p>&copy; Status Code Drinking Game <?php echo date("Y"); ?> | <a href="https://github.com/dougdragon/statuscodedrinkinggame.com/">Help make this more better?</a></p></center>
 </div>
 </body>
 </html>
