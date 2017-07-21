@@ -84,7 +84,7 @@ function return_key() {
     </p>
 </div>
 <div class="footer">
-    <center><p>&copy; Status Code Drinking Game <?php echo date("Y"); ?> | <a href="https://github.com/dougdragon/statuscodedrinkinggame.com/">Help make this more better?</a></p></center>
+    <center><p>Status Code Drinking Game <?php echo date("Y"); ?> | <a href="https://github.com/dougdragon/statuscodedrinkinggame.com/">Help make this more better?</a></p></center>
 </div>
 </body>
 </html>
