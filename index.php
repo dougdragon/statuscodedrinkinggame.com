@@ -1,7 +1,7 @@
 <?php
 // define the array
 $codes_and_values = array(
-    '100' => '<strong>Contunue</strong>: The server has received the request and the client should proceed to send the alcohol to the body. Everyone drink..',
+    '100' => '<strong>Continue</strong>: The server has received the request and the client should proceed to send the alcohol to the body. Everyone drink.',
     '101' => '<strong>Switching Protocols</strong>: The requester has asked the server to switch drinks and the server has agreed to do so. Drink something different.',
     '200' => '<strong>OK</strong>: Everything is OK. Have a drink.',
     '201' => '<strong>Created</strong>: Create a new drink, then drink it.',
@@ -38,10 +38,6 @@ function get_response($key) {
     return $codes_and_values[$key];
 }
 
-function return_key() {
-    global $codes_and_values;
-    return key($codes_and_values);
-}
 ?>
 
 <html>
