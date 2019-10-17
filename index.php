@@ -38,10 +38,6 @@ function get_response($key) {
     return $codes_and_values[$key];
 }
 
-function return_key() {
-    global $codes_and_values;
-    return key($codes_and_values);
-}
 ?>
 
 <html>
