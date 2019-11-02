@@ -51,6 +51,11 @@ body {
   font-size: 21px;
 }
 
+/* Make the response message bold */
+.jumbotron .response {
+  font-weight: bold;
+}
+
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
