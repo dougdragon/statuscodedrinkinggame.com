@@ -115,8 +115,11 @@ function get_description($key) {
     return $codes_and_values[$key]['description'];
 }
 
-<html>
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <title>Status Code Drinking Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -128,7 +131,7 @@ function get_description($key) {
 
 <div class="container">
     <div class="header">
-        <center><h3 class="text-muted">Response Code Drinking Game</h3></center>
+        <h3 class="text-muted">Response Code Drinking Game</h3>
     </div>
     <div class="jumbotron">
         <h1>
@@ -155,14 +158,12 @@ function get_description($key) {
 	    </span>
         </p>
     </div>
-    <p>
-        <center>
-            <a class="btn btn-block btn-success" href="javascript:history.go(0)">Give me another!</a>
-        </center>
+    <p class="reload">
+	<a class="btn btn-block btn-success" href="javascript:history.go(0)">Give me another!</a>
     </p>
 </div>
 <div class="footer">
-    <center><p>Status Code Drinking Game <?php echo date("Y"); ?> | <a href="https://github.com/dougdragon/statuscodedrinkinggame.com/">Help make this more better?</a></p></center>
+    <p>Status Code Drinking Game <?php echo date("Y"); ?> | <a href="https://github.com/dougdragon/statuscodedrinkinggame.com/">Help make this more better?</a></p>
 </div>
 </body>
 </html>

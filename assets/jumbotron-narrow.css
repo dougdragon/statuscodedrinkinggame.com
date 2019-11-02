@@ -24,6 +24,11 @@ body {
   line-height: 40px;
 }
 
+/* Center the header, the reload button and the footer */
+.header h3, .reload, .footer {
+  text-align: center;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
