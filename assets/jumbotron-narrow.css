@@ -24,6 +24,11 @@ body {
   line-height: 40px;
 }
 
+/* Center the header, the reload button and the footer */
+.header h3, .reload, .footer {
+  text-align: center;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -49,6 +54,11 @@ body {
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+}
+
+/* Make the response message bold */
+.jumbotron .response {
+  font-weight: bold;
 }
 
 /* Supporting marketing content */
